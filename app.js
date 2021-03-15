@@ -15,7 +15,7 @@ app.get('/api/rates', async (req, res) =>
 
 app.get('/', (req, res) =>
 {
-    return res.send('Welcome Home')
+    return res.send('Welcome to Currency Home')
    // console.log(response);
 });
 
